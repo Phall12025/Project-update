@@ -186,7 +186,7 @@ color: rgb(100, 21, 255);
 }
 .header__description {
     margin: 32px 0;
-    width: 100px;
+    width: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -254,14 +254,21 @@ letter-spacing: 0.6px;
 .header__customers {
 margin-top: 16px;
 padding-right: 128px;
+display : flex;
+align-items: center;
+
+
+
 opacity: 0.5;
 }
 img {
 width: 100%;
 }
 .header__img {
-width: 60%;
+width: 50%;
 max-width: 768px;
+
+
 }
 .header__blob {
 position: absolute;
