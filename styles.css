@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-margin: px;
+margin:0;
 padding: 0px;
 box-sizing: border-box;
 font-family: Inter, system-ui;
@@ -626,7 +626,7 @@ align-items: center;
 }
 .value:nth-child(1) 
 .value__img--wrapper {
-background-color: #9ae6b4;
+
 }
 .value__img--wrapper {
 border-radius: 50%;
@@ -1125,6 +1125,7 @@ line-height: 1.5;
 font-weight: 500;
 position: relative;
 cursor: pointer;
+text-align: center;
 }
 .footer__column--link:nth-child(2) {
 margin-top: 24px;
@@ -1139,6 +1140,7 @@ background: rgb(116, 44, 255);
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-direction: column;
 }
 .footer__logo {
 display: flex;
