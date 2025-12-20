@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-margin: 10px;
+margin: px;
 padding: 0px;
 box-sizing: border-box;
 font-family: Inter, system-ui;
 color: rgb(36, 62, 99);
+
 }
 body {
 max-width: 100vw;
@@ -203,8 +204,9 @@ justify-content: space-between;
 }
 .header__email {
 width: 100%;
-max-width:
 height: 68px;
+ 
+height : 68px;
 position: relative;
 display: flex;
 justify-content: flex-end;
@@ -265,7 +267,8 @@ img {
 width: 100%;
 }
 .header__img {
-width: 50%;
+width: 100%;
+
 max-width: 768px;
 
 
@@ -1212,6 +1215,9 @@ width : 100%;
 }
 .header__email {
     margin: 0 auto;
+    padding: 50px 20px 0 20px   ;
+    
+
 }
 header .row {
 flex-direction: column;
@@ -1220,9 +1226,12 @@ flex-direction: column;
         display: block;
     }
 .header__img--wrapper{
-    width: 60%;
-    max-width: 512px;
+    width: 100%;
+    
     margin: 0 auto;
+    padding: 32px 0 0 0;
+
+
 }
 .header__customers {
     padding-right: 0px;
@@ -1338,10 +1347,12 @@ line-height: 1.5;
 }
     .header__email {
 flex-direction: column;
-height: auto;
+height: 68;
 }
 .header__email--btn {
 width: 100%;
+
+
 padding: 16px 0;
 margin: 16px 0;
 margin-bottom: 0px;
